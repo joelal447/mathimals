@@ -1,0 +1,18 @@
+{
+  "name": "mathimal-quest",
+  "version": "4.4.0",
+  "private": true,
+  "description": "A 3D voxel creature-collecting adventure where every move is powered by a maths question.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
