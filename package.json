@@ -1,0 +1,19 @@
+{
+  "name": "mathimal-quest",
+  "version": "5.3.0",
+  "private": true,
+  "description": "A 3D voxel creature-collecting adventure where every move is powered by a maths (or quiz) question. Two players can link up and play together.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "peerjs": "^1.5.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
